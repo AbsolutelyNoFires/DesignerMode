@@ -5,6 +5,19 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignerMode", "DesignerMode.csproj", "{735CBA52-EE86-4E4D-949D-3D7F19B118B1}"
 EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "AuroraPatch", "..\..\v1.13\AuroraPatch.exe", "{F2CA0924-9946-498B-98B5-2B2814B68C83}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = D:\Games\AuroraCSharp\v1.13\AuroraPatch.exe
+		RemoteMachine = LAPTOP
+		StartingDirectory = D:\Games\AuroraCSharp\v1.13
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +28,8 @@ Global
 		{735CBA52-EE86-4E4D-949D-3D7F19B118B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{735CBA52-EE86-4E4D-949D-3D7F19B118B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{735CBA52-EE86-4E4D-949D-3D7F19B118B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2CA0924-9946-498B-98B5-2B2814B68C83}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{F2CA0924-9946-498B-98B5-2B2814B68C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
